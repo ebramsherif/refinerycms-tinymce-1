@@ -11,7 +11,7 @@ function init_tinymce_for(jq_selector) {
 
         if (type == 'image') {
           var title_text = "Choose an Image"
-          var cmsURL     = '/admin/images/new';
+          var cmsURL     = '/app/views/refinery/admin/_image_picker.html.erb';
         } else {
           var title_text = "Choose Object to Link"
           var cmsURL     = '/refinery/dialogs/link';
